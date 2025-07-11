@@ -125,7 +125,7 @@ The updateInterval determines how often the servo positions are updated.
 
 A smaller interval means more frequent updates and potentially smoother motion, but it also increases CPU usage. For most applications, 20ms is a good starting point.
 
-💬 ## Serial Commands
+💬 Serial Commands
 
 You can send the following commands via the Serial Monitor (ensure "Newline" is selected in the Serial Monitor settings):
 
@@ -135,7 +135,7 @@ You can send the following commands via the Serial Monitor (ensure "Newline" is 
 
     RESET: Resets all servos to their initial center position (90 degrees).
 
-⚠️ ## Safety Notes
+⚠️ Safety Notes
 
     Always use an external power supply for your servos. Powering them directly from the Arduino can damage your board.
 
@@ -145,6 +145,6 @@ You can send the following commands via the Serial Monitor (ensure "Newline" is 
 
     Implement an emergency stop mechanism accessible during operation.
 
-🤝 ## Contributing
+🤝 Contributing
 
 Feel free to fork this repository, make improvements, and submit pull requests. If you encounter any issues or have suggestions, please open an issue.
